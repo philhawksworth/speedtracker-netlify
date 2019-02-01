@@ -1,14 +1,12 @@
 const config = {
   profiles: {
-    /*
-    // Example profile
     test: {
-      name: 'BBC One',
+      name: 'Hawksworx',
       parameters: {
         connectivity: 'Cable',
         location: 'London_EC2',
         runs: 5,
-        url: 'https://www.bbc.co.uk/bbcone'
+        url: 'https://www.hawksworx.com'
       },
       budgets: [
         {
@@ -16,7 +14,7 @@ const config = {
           max: 1000
         }
       ]
-    }*/
+    }
   }
 }
 
