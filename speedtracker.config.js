@@ -14,6 +14,21 @@ const config = {
           max: 1000
         }
       ]
+    },
+    testkr: {
+      name: 'Hawksworx (Korea)',
+      parameters: {
+        connectivity: 'Cable',
+        location: 'ec2-ap-northeast-2',
+        runs: 5,
+        url: 'https://www.hawksworx.com'
+      },
+      budgets: [
+        {
+          metric: 'TTFB',
+          max: 1000
+        }
+      ]
     }
   }
 }
